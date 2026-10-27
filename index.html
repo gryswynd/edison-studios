@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Edison Studios</title>
+<style>
+  :root { --bg:#fbfaf7; --fg:#22222a; --muted:#666675; --accent:#b4432f; --card:#ffffff; --line:#e4e1da; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#1c1c22; --fg:#e8e8ee; --muted:#a0a0b0; --accent:#ff9c7a; --card:#25252d; --line:#3a3a46; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:48px 16px; }
+  h1 { font-size:1.9rem; margin:0 0 4px; }
+  .meta { color:var(--muted); margin:0 0 32px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:18px; }
+  .card h2 { margin:0 0 4px; font-size:1.2rem; }
+  .card p { margin:0 0 12px; color:var(--muted); }
+  a { color:var(--accent); }
+  footer { margin-top:40px; color:var(--muted); font-size:.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Edison Studios</h1>
+  <p class="meta">Small independent games.</p>
+  <div class="card">
+    <h2>The Adventures of Rikizo</h2>
+    <p>A slice-of-life mystery adventure set in a small Japanese town.</p>
+    <a href="rikizo/support.html">Support</a> &middot; <a href="rikizo/privacy.html">Privacy Policy</a>
+  </div>
+  <footer>Contact: <a href="mailto:gryswynd@gmail.com">gryswynd@gmail.com</a> &middot; &copy; 2026 Edison Studios LLC</footer>
+</main>
+</body>
+</html>
